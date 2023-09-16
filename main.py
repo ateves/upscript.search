@@ -1,5 +1,4 @@
 # main.py - create two playlists and allow the user to interact with them.
-# Author:
 
 #uses a large number of imports from .py files in this directory to os, time, random, and csv
 import song
@@ -138,3 +137,5 @@ if __name__ == '__main__':\
         elif choice == 5:
             search_term_input_a = str(input("What's the artist that you want to search by?"))
             playlist.Playlist.search(search_term_input_a,big_playlist)
+
+#This program was written by ANTHONY T

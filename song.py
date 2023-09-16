@@ -1,5 +1,4 @@
 # song.py - a class that represents a song
-# Author:ANTHONY TEVES
 
 #not used but here if needed, the timeStat helps calculate time in seconds and also formats time in hour:minutes:seconds or mins:seconds
 import timeStat
@@ -39,3 +38,5 @@ class Song:
         return f'Song(\'{self.rank}\', {self.artist}\', {self.title}\', {self.length}\', {self.year})'
 #c = Song(2,'anthony teves','country roads','30:31',22)
 #print(repr(c))
+
+#This program was written by ANTHONY TEVES

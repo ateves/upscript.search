@@ -1,6 +1,4 @@
-#author: ANTHONY TEVES
-
-#defauly python time module, has certain functions used in overall py file
+#default python time module, has certain functions used in overall py file
 import time
 
 #Time class constructor function
@@ -35,3 +33,5 @@ class Time:
 
 #practice 'check' prompts
 #print(Time.seconds_splitter_small((Time.get_sec('2:22'))))
+
+#This program was written by ANTHONY TEVES

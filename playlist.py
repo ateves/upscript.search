@@ -1,5 +1,5 @@
 # playlist.py - a class that represents a playlist of songs
-# Author:ANTHONY TEVES
+
 import song
 import timeStat
 
@@ -154,3 +154,5 @@ class Playlist:
         return timeStat.Time.seconds_splitter_big(a)
 
 """Calculates the duration of a playlist by adding the length of all its songs."""
+
+#This program was written by ANTHONY TEVES
