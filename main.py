@@ -1,12 +1,7 @@
-# main.py - create two playlists and allow the user to interact with them.
+'''main.py - creates a menu and allows us to search how many times any one word is used in the moviescript.
 
-#uses a large number of imports from .py files in this directory to os, time, random, and csv
-import song
-import playlist
-import timeStat
-import time
-import random
-import os
+Here is the one import we will use for the program
+'''
 import csv
 
 #import data which generates song class objects inside two different playlist objects
