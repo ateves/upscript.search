@@ -7,7 +7,14 @@ import csv
 #import data which generates song class objects inside two different playlist objects
 #big playlist holds all 500 listed songs organized
 #small playlist holds only 2% of the total 500
-def import_data(big,small):
+def import_data(movieScript):
+
+    with open("upscript.txt", "r", encoding="utf8") as movieScriptFile:
+        tsv_reader = csv.reader(movieScriptFile, delimeter="\t")
+        for row in tsv_reader:
+            if 
+
+            
     #gives us a list of course names
     #big.playlist_content
     with open("upscript.txt", "r", encoding="utf8") as songs_file:
