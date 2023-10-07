@@ -14,3 +14,7 @@ ask = input("what's the word you want to search the movie UP for?")
 is_word = check(ask, count)
 
 print("The word ",ask," was used ",is_word, "times.")
+
+'''
+https://www.freecodecamp.org/news/how-to-read-a-file-line-by-line-in-python/#:~:text=The%20readlines()%20method%20reads,as%20file%3A%20print(file.
+'''
