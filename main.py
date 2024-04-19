@@ -1,20 +1,6 @@
-'''main.py - creates a menu and allows us to search how many times any one word is used in the moviescript.
-'''
-count = 0
+txt = "Movietown News presents Spotlight on Adventure What you are now witnessing is footage never before seen by civilized humanity a lost world in South America Lurking in the shadow of majestic Paradise Falls it sports plants and animals undiscovered by science Who would dare set foot on this inhospitable summit Why our subject today Charles Muntz The beloved explorer lands his dirigible the Spirit of Adventure in New Hampshire this week completing a year long expedition to the lost world This lighter than air craft was designed by Muntz himself and is longer than 22 Prohibition paddy wagons placed end to end And here comes the adventurer now Never apart from his faithful dogs Muntz conceived the craft for canine comfort It's a veritable floating palace in the sky complete with doggie bath and mechanical canine walker And Jiminy Cricket do the locals consider Muntz the bee's knees And how Adventure is out there this time Gentlemen I give you the Monster of Paradise Falls And golly what a swell monster this is But what's this Scientists cry foul The National Explorers Society accuses Muntz of fabricating the skeleton The organization strips Muntz of his membership Humiliated, Muntz vows a return to Paradise Falls and promises to capture the beast... alive! I promise to capture the beast... alive And I will not come back until I do And so the    explorer is off to clearAnd so the explorer is off to  his name     Bon voyage Charles Muntz and    good luck capturing the Monster of    Paradise Falls Here's Charles Muntz piloting his famous dirigible He hurdles Pike's Peak He hurdles the Grand Canyon He hurdles Mount Everest He goes around Mount Everest Is there nothing he cannot do Yes, as Muntz himself says  Adventure is Adventure is out there"
 
-def check(word, count): 
-    with open("upscript.txt") as datafile: 
-        for line in datafile: 
-            if word in line: 
-                count += 1
-                return count
-
-ask = input("what's the word you want to search the movie UP for?")
-
-is_word = check(ask, count)
-
-print("The word ",ask," was used ",is_word, "times.")
-
-'''
-https://www.freecodecamp.org/news/how-to-read-a-file-line-by-line-in-python/#:~:text=The%20readlines()%20method%20reads,as%20file%3A%20print(file.
-'''
+# Lowercase o
+substring = input("What word are you looking for?")
+count = txt.count(substring)
+print('No. of occurrences of:',substring,":" ,count)
